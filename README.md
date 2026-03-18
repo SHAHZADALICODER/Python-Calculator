@@ -1,2 +1,11 @@
-# Python-Calculator
-This is a python calculator program , It takes only two inputs for calculations 
+# Python Calculator
+
+A simple CLI-based calculator that performs:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Percentage
+
+## How to run
+python calculator.py
