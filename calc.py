@@ -1,18 +1,18 @@
-print ("This is a python simple calculator project\n=======================================")
+print ("This is a Python simple calculator project\n=======================================")
 
 def _FinalOutputMsgMaker(f_opr):
     if f_opr == 1:
-        return "Enter any key to get sum of these two numbers : "
+        return "Enter any key to get the sum of these two numbers: "
     elif f_opr == 2:
-        return "Enter any key to get sub of these two numbers : "
+        return "Enter any key to get the sub of these two numbers: "
     elif f_opr == 3:
-        return "Enter any key to get multiplication of these two numbers : "
+        return "Enter any key to get the multiplication of these two numbers: "
     elif f_opr == 4:
-        return "Enter any key to get devision of these two numbers : "
+        return "Enter any key to get the division of these two numbers: "
     elif f_opr == 5:
-        return "Enter any key to get precentage of these two numbers : "
+        return "Enter any key to get the percentage of these two numbers: "
     else:
-        return "Valid Operator"
+        return "Valid Operator."
     
 def _mainCalculatorMachineMethod(F_num , S_num , op):
     if not(F_num and S_num and (len(str(F_num)) > 0 and len(str(S_num)) > 0)):
@@ -29,7 +29,7 @@ def _mainCalculatorMachineMethod(F_num , S_num , op):
         elif op == 5:
             return "The precentage value of",F_num," and ",S_num," is : ",(F_num % S_num)
         else:
-            return "Something went wrong"
+            return "Something went wrong."
 
 # main code starts from here
 print("Your first no : ")
